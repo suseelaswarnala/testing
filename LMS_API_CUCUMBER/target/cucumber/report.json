@@ -1,0 +1,489 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-18T22:19:06.703Z",
+        "line": 2,
+        "name": "Check when no ProgramName is  given",
+        "description": "",
+        "id": "post-method;check-when-no-programname-is--given",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 567129300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User set POST API endpoint",
+            "match": {
+              "location": "userstepdef.Poststepdef.user_set_post_api_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1900898900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User left the program name  field blank ,valid program description,valid online status",
+            "match": {
+              "location": "userstepdef.Poststepdef.user_left_the_program_name_field_blank_valid_program_description_valid_online_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39004600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should Receive a error message",
+            "match": {
+              "location": "userstepdef.Poststepdef.user_should_receive_a()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-18T22:19:09.255Z",
+        "line": 7,
+        "name": "Check when Program Description is Blank",
+        "description": "",
+        "id": "post-method;check-when-program-description-is-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User set POST API endpoint",
+            "match": {
+              "location": "userstepdef.Poststepdef.user_set_post_api_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1419141100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter a valid programname, blank program description,valid online status",
+            "match": {
+              "location": "userstepdef.Poststepdef.user_enter_a_valid_programname_blank_program_description_valid_online_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 789900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should receive a status 200 message",
+            "match": {
+              "location": "userstepdef.Poststepdef.user_should_receive_a_status_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-18T22:19:10.681Z",
+        "line": 11,
+        "name": "Check when Online field is left Blank",
+        "description": "",
+        "id": "post-method;check-when-online-field-is-left-blank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User set POST API endpoint",
+            "match": {
+              "location": "userstepdef.Poststepdef.user_set_post_api_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1064551100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters valid program name,valid program description,Blank online status field",
+            "match": {
+              "location": "userstepdef.Poststepdef.user_enters_valid_program_name_valid_program_description_blank_online_status_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should receive a status message",
+            "match": {
+              "location": "userstepdef.Poststepdef.user_should_receive_a_status_ok_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-18T22:19:11.753Z",
+        "line": 15,
+        "name": "Check when Online field is entered with numbers",
+        "description": "",
+        "id": "post-method;check-when-online-field-is-entered-with-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User set POST API endpoint",
+            "match": {
+              "location": "userstepdef.Poststepdef.user_set_post_api_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1091139300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters a record with programid, programName, programDescription and number in Online field",
+            "match": {
+              "location": "userstepdef.Poststepdef.user_enters_a_record_with_programid_program_name_program_description_and_number_in_online_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1002900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User receives status message",
+            "match": {
+              "location": "userstepdef.Poststepdef.user_receives_ok_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Post Method",
+    "description": "",
+    "id": "post-method",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/lms_features/post.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-18T22:19:12.850Z",
+        "line": 3,
+        "name": "Check if we can update the existing programId",
+        "description": "",
+        "id": "put-method-for-user;check-if-we-can-update-the-existing-programid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User set PUT API endpoint",
+            "match": {
+              "location": "userstepdef.putstepdef.user_set_put_api_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 726304700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User add an existing programid  with new programName,new programDescription and new online status",
+            "match": {
+              "location": "userstepdef.putstepdef.user_add_an_existing_programid_with_new_program_name_new_program_description_and_new_online_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should receive a valid status code in response",
+            "match": {
+              "location": "userstepdef.putstepdef.user_should_receive_a_valid_status_code_in_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-18T22:19:13.584Z",
+        "line": 7,
+        "name": "check if we can update the non existing programId",
+        "description": "",
+        "id": "put-method-for-user;check-if-we-can-update-the-non-existing-programid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User set PUT API endpoint",
+            "match": {
+              "location": "userstepdef.putstepdef.user_set_put_api_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 688986200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters an none existing program Id,valid program name,valid program description,valid online status",
+            "match": {
+              "location": "userstepdef.putstepdef.user_enters_an_none_existing_program_id_valid_program_name_valid_program_description_valid_online_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should receive Status should be 400 Bad Request",
+            "match": {
+              "location": "userstepdef.putstepdef.user_should_receive_status_should_be_bad_request()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-18T22:19:14.278Z",
+        "line": 11,
+        "name": "check if we can update with ProgramId as null",
+        "description": "",
+        "id": "put-method-for-user;check-if-we-can-update-with-programid-as-null",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User set PUT API endpoint",
+            "match": {
+              "location": "userstepdef.putstepdef.user_set_put_api_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 660772800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters  null programID,valid program name,valid program description,valid online status",
+            "match": {
+              "location": "userstepdef.putstepdef.user_enters_null_program_id_valid_program_name_valid_program_description_valid_online_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1002000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User recieves status 400 Bad Request",
+            "match": {
+              "location": "userstepdef.putstepdef.user_recieves_status_Bad_request()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-18T22:19:14.944Z",
+        "line": 15,
+        "name": "Check if we update using programId as alphanumeric",
+        "description": "",
+        "id": "put-method-for-user;check-if-we-update-using-programid-as-alphanumeric",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User set PUT API endpoint",
+            "match": {
+              "location": "userstepdef.putstepdef.user_set_put_api_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 644768700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User specifies an existing programid as alphanumeric  with new programName,new programDescription and new online field",
+            "match": {
+              "location": "userstepdef.putstepdef.user_specifies_an_existing_programid_as_alphanumeric_with_new_program_name_new_program_description_and_new_online_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User receives 405 Method not allowed message",
+            "match": {
+              "location": "userstepdef.putstepdef.user_receives_Method_not_allowed_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-18T22:19:15.594Z",
+        "line": 19,
+        "name": "Check when we update the Program Description",
+        "description": "",
+        "id": "put-method-for-user;check-when-we-update-the-program-description",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User set PUT API endpoint",
+            "match": {
+              "location": "userstepdef.putstepdef.user_set_put_api_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 692950100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters an  existing program Id,valid new program name,valid program description,valid online status",
+            "match": {
+              "location": "userstepdef.putstepdef.user_enters_an_existing_program_id_valid_new_program_name_valid_program_description_valid_online_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should receive a status 200 OK message",
+            "match": {
+              "location": "userstepdef.putstepdef.user_should_receive_a_status_ok_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-01-18T22:19:16.295Z",
+        "line": 23,
+        "name": "Check when ProgramDescription is number or alphanumeric",
+        "description": "",
+        "id": "put-method-for-user;check-when-programdescription-is-number-or-alphanumeric",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User set PUT API endpoint",
+            "match": {
+              "location": "userstepdef.putstepdef.user_set_put_api_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 656341500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enter an existing program Id,valid  program name,alphanumeric  program description,valid online status",
+            "match": {
+              "location": "userstepdef.putstepdef.user_enter_an_existing_program_id_valid_program_name_alphanumeric_program_description_valid_online_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 988800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User should receive a valid status 200 code in response",
+            "match": {
+              "location": "userstepdef.putstepdef.user_should_receive_a_valid_status_in_response()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Put Method for User",
+    "description": "",
+    "id": "put-method-for-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/lms_features/put.feature",
+    "tags": []
+  }
+]
